@@ -1,0 +1,25 @@
+.timer {
+  display: grid;
+  place-items: center;
+}
+
+.btns {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  margin: 0 auto 15px;
+  padding: 0 12px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 22px;
+  height: 55px;
+  font-weight: bold;
+  width: 200px;
+  background-color: white;
+  transition: color 0.5s ease-in-out 0s;
+}
